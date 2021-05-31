@@ -1,0 +1,1 @@
+# android-covid-results-app

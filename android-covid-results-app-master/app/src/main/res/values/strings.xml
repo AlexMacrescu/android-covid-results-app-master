@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tema2</string>
+    <string name="alex_macrescu_main_centre">Centre</string>
+    <string name="alex_macrescu_main_pacienti">Pacienți</string>
+    <string name="alex_macrescu_main_adauga_centru">Adaugă centru</string>
+    <string name="title_activity_list">ListActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="alex_macrescu_default">default</string>
+    <string name="hint_judet">Judet</string>
+    <string name="alex_macrescu_hint_judet">Judet</string>
+    <string name="alex_macrescu_hint_oras">Oras</string>
+    <string name="alex_macrescu_hint_adresa">Adresa</string>
+    <string name="alex_macrescu_btn_adauga_centru">Adauga</string>
+    <string name="alex_macrescu_adauga_pacient">Adauga pacient</string>
+    <string name="alex_macrescu_nume_pacient">Nume pacient</string>
+    <string name="alex_macrescu_rezultat">Rezultat</string>
+    <string name="alex_macrescu_cnp">CNP</string>
+    <string name="alex_macrescu_telefon">Telefon</string>
+    <string name="alex_macrescu_pacienti">PACIENTI</string>
+</resources>

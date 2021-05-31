@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/alex_macrescu_til_judet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alex_macrescu_tiet_judet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/alex_macrescu_hint_judet" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/alex_macrescu_til_oras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alex_macrescu_til_judet">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alex_macrescu_tiet_oras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/alex_macrescu_hint_oras" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/alex_macrescu_til_adresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alex_macrescu_til_oras">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alex_macrescu_tiet_adresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/alex_macrescu_hint_adresa" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/alex_macrescu_tv_pacienti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alex_macrescu_pacienti"
+        android:textColor="@color/blue"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/alex_macrescu_til_adresa"
+        android:gravity="start" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/alex_macrescu_til_pacient_nume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/alex_macrescu_tv_pacienti">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alex_macrescu_tiet_pacient_nume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/alex_macrescu_nume_pacient" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/alex_macrescu_til_pacient_telefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alex_macrescu_til_pacient_nume">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alex_macrescu_tiet_pacient_telefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/alex_macrescu_telefon" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/alex_macrescu_til_pacient_cnp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alex_macrescu_til_pacient_telefon">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alex_macrescu_tiet_pacient_cnp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/alex_macrescu_cnp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Switch
+        android:id="@id/alex_macrescu_pacient_rezultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/alex_macrescu_rezultat"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alex_macrescu_til_pacient_cnp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/alex_macrescu_btn_adauga_pacient"
+        style="@style/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/alex_macrescu_adauga_pacient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alex_macrescu_pacient_rezultat" />
+
+
+    <Button
+        android:id="@+id/alex_macrescu_btn_adauga"
+        style="@style/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/alex_macrescu_btn_adauga_centru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/alex_macrescu_btn_adauga_pacient" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
